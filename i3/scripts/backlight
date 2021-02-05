@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
+# I have modified the script to work with ligh(arch package) to control brightness as xbacklight didn't work without package 'xf86-video-intel' which causes my 
+# to freeze quite often
 
-# Show the screen brightness value given by `xbacklight`.
-# Clicking uses `xset` to turn off the backlight, scrolling increases or decreases
-# the brightness.
-
-# Copyright 2019 Johannes Lange
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
