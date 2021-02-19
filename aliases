@@ -5,3 +5,6 @@ alias timeshift="sudo timeshift-gtk"
 alias bt="bluetoothctl"
 alias ls="ls -al --color=auto"
 alias cat='bat'
+alias la='ls -a'
+alias ll='ls -l'
+alias lal='ls -al'
