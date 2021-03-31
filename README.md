@@ -1,3 +1,3 @@
-# archlinux
-My dotfiles for different wms on arch
-I have included all my dotfiles for arch while trying different wms. Feel free to use and alter them according to your taste.
+# GNU/Linux
+My dotfiles for different window managers and different tweaks for GNU/Linux
+I keep trying different Linux distributions and window managers, but now I mainly focus on one main distro on my machine, and try distributions and WMs in a KVM.
