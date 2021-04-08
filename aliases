@@ -3,10 +3,8 @@ alias hibernate="systemctl hibernate"
 alias shutdown="systemctl shutdown now"
 alias timeshift="sudo timeshift-gtk"
 alias bt="bluetoothctl"
-alias ls="ls -al --color=auto"
-alias cat='bat'
-alias la='ls -a'
-alias ll='ls -l'
-alias lal='ls -al'
+alias cat="bat"
 alias cat="bat"
 alias ls="exa"
+alias la="exa -a"
+alias ll="exa -all"
