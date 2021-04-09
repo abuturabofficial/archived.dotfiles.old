@@ -227,3 +227,8 @@ noborderrule=2
 wmclass=kdenlive kdenlive
 wmclasscomplete=true
 wmclassmatch=1
+
+[Global Rule for Borderless Window Frame]
+Description=Global Rule for Borderless Window Frame
+noborder=true
+noborderrule=2
