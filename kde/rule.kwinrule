@@ -217,3 +217,13 @@ noborderrule=4
 wmclass=timeshift-gtk timeshift-gtk
 wmclasscomplete=true
 wmclassmatch=1
+
+[Settings for kdenlive kdenlive]
+Description=Settings for kdenlive kdenlive
+desktop=7
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=kdenlive kdenlive
+wmclasscomplete=true
+wmclassmatch=1
