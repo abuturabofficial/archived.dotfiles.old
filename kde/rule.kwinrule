@@ -1,0 +1,219 @@
+[Application settings for atom]
+Description=Application settings for atom
+desktop=1
+desktoprule=4
+noborder=true
+noborderrule=4
+wmclass=atom
+wmclassmatch=1
+
+[Application settings for blender]
+Description=Application settings for blender
+desktop=7
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=blender
+wmclassmatch=1
+
+[Application settings for gimp-2.10]
+Description=Application settings for gimp-2.10
+desktop=7
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=gimp-2.10
+wmclassmatch=1
+
+[Application settings for manjaro.manjaro-settings-manager]
+Description=Application settings for manjaro.manjaro-settings-manager
+desktop=4
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=manjaro-settings-manager manjaro.manjaro-settings-manager
+wmclasscomplete=true
+wmclassmatch=1
+
+[Application settings for net.kchmviewer.kchmviewer]
+Description=Application settings for net.kchmviewer.kchmviewer
+desktop=9
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=kchmviewer net.kchmviewer.kchmviewer
+wmclasscomplete=true
+wmclassmatch=1
+
+[Application settings for newsflashgtk]
+Description=Application settings for newsflashgtk
+desktop=9
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=com.gitlab.newsflash newsflashgtk
+wmclasscomplete=true
+wmclassmatch=1
+
+[Application settings for org.inkscape.inkscape]
+Description=Application settings for org.inkscape.inkscape
+desktop=7
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=inkscape org.inkscape.inkscape
+wmclasscomplete=true
+wmclassmatch=1
+
+[Application settings for org.kde.konsole]
+Description=Application settings for org.kde.konsole
+noborder=true
+noborderrule=2
+wmclass=konsole org.kde.konsole
+wmclasscomplete=true
+wmclassmatch=1
+
+[Application settings for org.kde.okular]
+Description=Application settings for org.kde.okular
+desktop=9
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=okular org.kde.okular
+wmclasscomplete=true
+wmclassmatch=1
+
+[Application settings for pamac-manager]
+Description=Application settings for pamac-manager
+desktop=4
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=pamac-manager
+wmclassmatch=1
+
+[Application settings for signal]
+Description=Application settings for signal
+desktop=6
+desktoprule=2
+noborder=true
+noborderrule=2
+wmclass=signal
+wmclassmatch=1
+
+[Application settings for telegramdesktop]
+Description=Application settings for telegramdesktop
+desktop=6
+desktoprule=4
+noborderrule=4
+wmclass=telegram-desktop telegramdesktop
+wmclasscomplete=true
+wmclassmatch=1
+
+[Application settings for thunderbird]
+Description=Application settings for thunderbird
+desktop=4
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=mail thunderbird
+wmclasscomplete=true
+wmclassmatch=1
+
+[Application settings for virt-manager]
+Description=Application settings for virt-manager
+desktop=8
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=python3.9 virt-manager
+wmclasscomplete=true
+wmclassmatch=1
+
+[Application settings for zoom]
+Description=Application settings for zoom
+desktop=4
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=zoom
+wmclassmatch=1
+
+[Brave]
+Description=Brave
+desktop=2
+desktoprule=4
+noborder=true
+noborderrule=4
+wmclass=brave-browser
+wmclassmatch=1
+
+[Settings]
+Description=Settings
+desktop=4
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=systemsettings5 systemsettings
+wmclasscomplete=true
+wmclassmatch=1
+
+[Settings for NewsFlashGTK]
+Description=Settings for NewsFlashGTK
+desktop=9
+desktoprule=4
+noborder=true
+noborderrule=4
+wmclass=newsflashgtk
+wmclasscomplete=true
+wmclassmatch=1
+
+[Settings for audacity audacity]
+Description=Settings for audacity audacity
+desktop=7
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=audacity audacity
+wmclasscomplete=true
+wmclassmatch=1
+
+[Settings for mpv mpv]
+Description=Settings for mpv mpv
+desktop=7
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=mpv mpv
+wmclasscomplete=true
+wmclassmatch=1
+
+[Settings for simplescreenrecorder simplescreenrecorder]
+Description=Settings for simplescreenrecorder simplescreenrecorder
+desktop=7
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=simplescreenrecorder simplescreenrecorder
+wmclasscomplete=true
+wmclassmatch=1
+
+[Settings for soffice.bin libreoffice-startcenter]
+Description=Settings for soffice.bin libreoffice-startcenter
+desktop=3
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=kdeinit5 org.kde.dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
+[Settings for timeshift-gtk timeshift-gtk]
+Description=Settings for timeshift-gtk timeshift-gtk
+desktop=4
+desktoprule=4
+noborder=true
+noborderrule=4
+wmclass=timeshift-gtk timeshift-gtk
+wmclasscomplete=true
+wmclassmatch=1
