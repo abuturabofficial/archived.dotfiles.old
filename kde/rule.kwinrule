@@ -232,3 +232,13 @@ wmclassmatch=1
 Description=Global Rule for Borderless Window Frame
 noborder=true
 noborderrule=2
+
+[Settings for simplenote]
+Description=Settings for simplenote
+desktop=5
+desktoprule=4
+noborder=true
+noborderrule=4
+wmclass=simplenote
+wmclasscomplete=true
+wmclassmatch=1
