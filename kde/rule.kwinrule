@@ -242,3 +242,13 @@ noborderrule=4
 wmclass=simplenote
 wmclasscomplete=true
 wmclassmatch=1
+
+[Settings for navigator firefox]
+Description=Settings for navigator firefox
+desktop=2
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
