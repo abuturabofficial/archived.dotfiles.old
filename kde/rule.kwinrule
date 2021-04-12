@@ -252,3 +252,13 @@ noborderrule=2
 wmclass=navigator firefox
 wmclasscomplete=true
 wmclassmatch=1
+
+[Application settings for freetube]
+Description=Application settings for freetube
+desktop=2
+desktoprule=4
+noborder=true
+noborderrule=2
+wmclass=freetube freetube
+wmclasscomplete=true
+wmclassmatch=1
