@@ -284,6 +284,7 @@ bindsym $mod+p exec /usr/local/bin/switch-audio-port
 
 ## App shortcuts
 bindsym $mod+o exec /usr/bin/brave
+bindsym $mod+Shift+o exec /usr/bin/firefox
 bindsym $mod+n exec /usr/bin/thunar
 #bindsym Print exec "scrot ~/Pictures/%Y-%m-%d-%T-screenshot.png"
 bindsym --release Print exec "scrot -u $HOME/Pictures/ScreenShots/`date +%Y-%m-%d_%H:%M:%S`.png"
