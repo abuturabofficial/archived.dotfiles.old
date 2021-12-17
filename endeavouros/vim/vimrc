@@ -1,0 +1,84 @@
+" Set commands for vim ---------------------------------------------------------------- {{{
+
+" Set command code goes here.
+
+syntax on
+set wrap
+set number
+set autoindent
+set shiftwidth=4
+set nocompatible
+filetype on
+filetype indent on
+filetype plugin on
+set tabstop=4
+set wildmenu
+set path+=**
+set hlsearch
+set expandtab
+set ignorecase
+set incsearch
+set laststatus=2
+set wildmenu
+set cursorline
+set title
+set mouse=a
+set autoread
+set confirm
+set history=1000
+set foldmethod=indent
+set foldnestmax=3
+set showcmd
+set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
+
+" }}}
+
+" PLUGINS ---------------------------------------------------------------- {{{
+
+" Plugin code goes here.
+call plug#begin('~/.vim/plugged')
+
+
+
+call plug#end()
+" }}}
+
+
+" MAPPINGS --------------------------------------------------------------- {{{
+
+" Mappings code goes here.
+
+
+" }}}
+
+
+" VIMSCRIPT -------------------------------------------------------------- {{{
+
+" This will enable code folding.
+" Use the marker method of folding.
+augroup filetype_vim
+    autocmd!
+    autocmd FileType vim setlocal foldmethod=marker
+augroup END
+
+" More Vimscripts code goes here.
+
+" }}}
+
+
+" STATUS LINE ------------------------------------------------------------ {{{
+
+" Status bar code goes here.
+
+" }}}
+
+
+
+" Colors  ------------------------------------------------------------ {{{
+" Vim colors go here.
+
+set background=dark
+set termguicolors
+
+" }}}
+
