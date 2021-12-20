@@ -2,8 +2,10 @@
 
 " Set command code goes here.
 
+set completeopt=menuone,noinsert,noselect
 set wrap
 set number
+set relativenumber
 set autoindent
 set shiftwidth=4
 filetype on
@@ -23,11 +25,18 @@ set autoread
 set confirm
 set history=1000
 set foldmethod=indent
-set foldnestmax=3
+set foldnestmax=1
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 set cc=80
-set backupdir=~/.cache/vim
+set backupdir=~/.cache/nvim
 set mouse=v
+set signcolumn=yes
+set cmdheight=1
+set updatetime=750
+let mapleader=" "
+if (has("termguicolors"))
+    set termguicolors
+endif
 set showmatch
 set splitright
 set splitbelow
@@ -42,9 +51,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 Plug 'vim-airline/vim-airline'
 Plug 'dracula/vim'
-Plug 'neoclide/coc.nvim' , {'branch': 'release'}
-
-
+Plug 'norcalli/nvim-colorizer.lua'
 call plug#end()
 " }}}
 
@@ -53,7 +60,27 @@ call plug#end()
 
 " Mappings code goes here.
 
+" Moving between tabs"
 
+nnoremap J gT
+nnoremap K gt
+
+" Moving between splits"
+
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+" turn terminal to normal mode with escape
+tnoremap <Esc> <C-\><C-n>
+" start terminal in insert mode
+au BufEnter * if &buftype == 'terminal' | :startinsert | endif
+" open terminal on ctrl+n
+function! OpenTerminal()
+  split term://bash
+  resize 10
+endfunction
+nnoremap <c-n> :call OpenTerminal()<CR>
 " }}}
 
 
@@ -82,6 +109,5 @@ augroup END
 " Colors  ------------------------------------------------------------ {{{
 " Vim colors go here.
 colorscheme dracula
-
 " }}}
 
