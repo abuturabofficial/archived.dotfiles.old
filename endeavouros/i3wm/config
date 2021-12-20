@@ -457,6 +457,7 @@ for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
 for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enable
 for_window [class="Pamac-manager"] floating enable
 for_window [class="Gufw.py"] floating enable
+for_window [class="Xfce4-power-manager-settings"] floating enable
 
 ######################################
 # color settings for bar and windows #
