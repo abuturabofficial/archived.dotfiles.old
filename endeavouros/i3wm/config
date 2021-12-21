@@ -30,7 +30,7 @@ set $mod Mod4
 
 # set the capslock as aditional esc key and shift+capslok as normal capslock
 exec --no-startup-id setxkbmap -option caps:escape_shifted_capslock
-
+exec --no-startup-id systemctl enable --now --user greenclip.service
 #####################
 # workspace layout: #
 #####################
