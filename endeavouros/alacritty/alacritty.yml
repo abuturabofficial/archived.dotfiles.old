@@ -51,7 +51,7 @@ colors:
     cyan: "#56B6C2"
     white: "#abb2bf"
 
-  # background_opacity: 1.0
+  background_opacity: 0.8
 
   # Change cursor colors
   cursor:
@@ -60,28 +60,28 @@ colors:
 
 cursor:
   style:
-    blinking: Never
+    blinking: always
 
 font:
   # The normal (roman) font face to use.
   normal:
-    family: monospace
+    family: FiraCode NF
     # Style can be specified to pick a specific face.
     style: Regular
 
   # The bold font face
   bold:
-    family: monospace
+    family: FiraCode NF
     # Style can be specified to pick a specific face.
     style: Bold
 
   # The italic font face
   italic:
-    family: monospace
+    family: FiraCode NF
     # Style can be specified to pick a specific face.
     style: Italic
 
-  size: 13.0
+  size: 8.0
 
   ligatures: true
 
